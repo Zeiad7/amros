@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Payment App", "Payment App\Payment App.vcxproj", "{2C3FA2BA-A22A-425D-82F1-A9F0A0963583}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{2DD6FE0A-18B0-4AFF-B612-99A8CBF78AAB}"
+	ProjectSection(SolutionItems) = preProject
+		Payment App\Application\App.c = Payment App\Application\App.c
+		Payment App\Application\App.h = Payment App\Application\App.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Card", "Card", "{AF01E382-B1FB-4B0C-AE5C-E2C1C8FFAB25}"
+	ProjectSection(SolutionItems) = preProject
+		Payment App\Card\Card.c = Payment App\Card\Card.c
+		Payment App\Card\Card.h = Payment App\Card\Card.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{9CAAFE30-76B2-478F-941D-D3F756F4B97E}"
+	ProjectSection(SolutionItems) = preProject
+		Payment App\Server\Server.c = Payment App\Server\Server.c
+		Payment App\Server\Server.h = Payment App\Server\Server.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Terminal", "Terminal", "{4D52978D-AFD1-440E-8678-B99A56C9C995}"
+	ProjectSection(SolutionItems) = preProject
+		Payment App\Terminal\Terminal.c = Payment App\Terminal\Terminal.c
+		Payment App\Terminal\Terminal.h = Payment App\Terminal\Terminal.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C3FA2BA-A22A-425D-82F1-A9F0A0963583}.Debug|x64.ActiveCfg = Debug|x64
+		{2C3FA2BA-A22A-425D-82F1-A9F0A0963583}.Debug|x64.Build.0 = Debug|x64
+		{2C3FA2BA-A22A-425D-82F1-A9F0A0963583}.Debug|x86.ActiveCfg = Debug|Win32
+		{2C3FA2BA-A22A-425D-82F1-A9F0A0963583}.Debug|x86.Build.0 = Debug|Win32
+		{2C3FA2BA-A22A-425D-82F1-A9F0A0963583}.Release|x64.ActiveCfg = Release|x64
+		{2C3FA2BA-A22A-425D-82F1-A9F0A0963583}.Release|x64.Build.0 = Release|x64
+		{2C3FA2BA-A22A-425D-82F1-A9F0A0963583}.Release|x86.ActiveCfg = Release|Win32
+		{2C3FA2BA-A22A-425D-82F1-A9F0A0963583}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBDA935C-C11F-4806-8B65-3987E3527892}
+	EndGlobalSection
+EndGlobal
